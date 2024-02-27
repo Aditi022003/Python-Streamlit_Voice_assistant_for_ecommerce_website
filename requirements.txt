@@ -4,3 +4,4 @@ pyttsx3==2.90
 speechrecognition==3.8.1
 scipy==1.7.3
 streamlit-webrtc==0.21.0
+pyaudio==0.2.11; platform_system == 'Windows'
