@@ -7,6 +7,7 @@ import streamlit.components.v1 as component
 import speech_recognition as sr
 import scipy.io.wavfile as wavfile
 import streamlit_webrtc as stwt
+import pyaudio
 
 from pathlib import Path
 
