@@ -121,15 +121,11 @@ def about_us():
     webbrowser.open('AboutUs.html')
 
 def contact_us():
-    text = "For any queries, please send an email to aditirgupta02@gmail.com."
+    text = "For any queries, please send an email to aditirg2@gmail.com."
     myai(text)
 
 def main():
-    def load_model():
-        model_path = "65894997d3ccf6fa248c429c.glb"  # Specify the file path of your .glb model
-        with open(model_path, "rb") as f:
-            model_data = f.read()
-        return model_data
+   
     st.title("Virtual Assistant")
 
     introduce_assistant()
